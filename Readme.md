@@ -9,7 +9,7 @@ Repository này được tạo ra nhằm làm cầu nối giao tiếp giữa fro
 - Dựa vào Schema và luồng các màn hình, người thiết kế cần xác định rõ sẽ gọi request trên service nào đầu tiên.
 - Viết request trong file tương ứng với service. (Tạo mới nếu file chưa tồn tại)
 
-*Ví dụ*: Gọi API để hiển thị toàn bộ Lead $ \rightarrow$ Xác định gọi `record-service` $\rightarrow$ Viết API trong file `record-service`.
+*Ví dụ*: Gọi API để hiển thị toàn bộ Lead $\rightarrow$ Xác định gọi `record-service` $\rightarrow$ Viết API trong file `record-service`.
 ### Định nghĩa endpoint
 - Định nghĩa endpoint và đặt tên cho đường dẫn.
 - Định nghĩa phương thức request (`GET`, `POST`, `PUT`,...)
